@@ -34,7 +34,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.9, ease: "easeOut" }}
-                    className="lobster-font mb-5 not-italic relative font-normal text-[38px] sm:text-[48px] md:text-[96px] leading-[60px] md:leading-[120px] text-center text-[#4B164C]"
+                    className="lobster-font mb-5 not-italic relative font-normal text-[45px] sm:text-[48px] md:text-[96px] leading-[60px] md:leading-[120px] text-center text-[#4B164C]"
                 >
                     <Image src="/images/heart.png" className="absolute w-[60.14px] h-[50.09px] md:w-[91.14px] sm:h-[72.09px] right-[12%] sm:right-[24%] top-[-36px] sm:top-[-50px]" alt="heart" width={100} height={80} />
                     where minds meet <br />
