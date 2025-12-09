@@ -175,7 +175,7 @@ export default function BetaUserModal({
                                     value={form.phone}
                                     onChange={handleChange("phone")}
                                     className="mt-1 w-full rounded-lg border border-[#4B164C]/20 px-3 py-2 inter-font text-[#4B164C] focus:border-[#4B164C] focus:outline-none focus:ring-2 focus:ring-[#4B164C]/30"
-                                    placeholder="+91-XXXXXXX"
+                                    placeholder="phone"
                                     required
                                 />
                             </label>

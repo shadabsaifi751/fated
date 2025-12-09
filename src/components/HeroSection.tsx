@@ -34,9 +34,9 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.9, ease: "easeOut" }}
-                    className="lobster-font mb-5 not-italic relative font-normal text-[48px] md:text-[96px] leading-[60px] md:leading-[120px] text-center text-[#4B164C]"
+                    className="lobster-font mb-5 not-italic relative font-normal text-[38px] sm:text-[48px] md:text-[96px] leading-[60px] md:leading-[120px] text-center text-[#4B164C]"
                 >
-                    <Image src="/images/heart.png" className="absolute w-[91.14px] h-[72.09px] sm:right-[24%] top-[-50px]" alt="heart" width={100} height={80} />
+                    <Image src="/images/heart.png" className="absolute w-[60.14px] h-[50.09px] md:w-[91.14px] sm:h-[72.09px] right-[12%] sm:right-[24%] top-[-36px] sm:top-[-50px]" alt="heart" width={100} height={80} />
                     where minds meet <br />
                     heart follows
                 </motion.h1>
@@ -48,7 +48,7 @@ export default function Hero() {
                     transition={{ duration: 1, ease: "easeOut" }}
                     className="max-w-xl inter-font block mx-auto  not-italic font-medium text-[20px] leading-[27px] text-center text-[#4B164C] mb-6"
                 >
-                    India’s first idea-first dating app. Connect through opinions, values, and meaningful conversations, not just appearances.
+                    India’s first thought-led dating app. Connect through opinions, values, and meaningful conversations, not just appearances.
                 </motion.p>
 
                 {/* Button */}
