@@ -13,6 +13,8 @@ pnpm dev
 # or
 bun dev
 ```
+<img width="2940" height="6600" alt="screencapture-localhost-3000-2025-12-09-17_34_00" src="https://github.com/user-attachments/assets/cb37e39d-a38e-4e65-abc9-9f89830403ea" />
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
