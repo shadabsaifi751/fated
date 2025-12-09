@@ -1,13 +1,12 @@
 import Head from "next/head";
 import HeroSection from "@/components/HeroSection";
 import Header from "@/components/Header";
-import ChooseToMatch from "@/components/ChooseToMatch";
+// import ChooseToMatch from "@/components/ChooseToMatch";
 import Footer from "@/components/Footer";
-import FatedWork from "@/components/FatedWork";
+// import FatedWork from "@/components/FatedWork";
 
 export default function Home() {
-  return (
-    <>
+  return ( <>
       <Head>
         <title>Fated - Where Minds Meet Heart Follows | Connect by Topics</title>
         <meta name="description" content="Fated is a unique dating platform focused on deep, meaningful connections. Learn how fated works and choose your perfect match based on shared interests." />
@@ -21,8 +20,8 @@ export default function Home() {
       <main className="min-h-screen">
         <Header/>
         <HeroSection />
-        <FatedWork/>
-        <ChooseToMatch/>
+        {/* <FatedWork/>
+        <ChooseToMatch/> */}
         <Footer/>
       </main>
     </>
