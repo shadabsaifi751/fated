@@ -54,7 +54,7 @@ export default function Hero() {
                 {/* Button */}
                 <motion.button
                     onClick={() => setIsModalOpen(true)}
-                    className="mx-auto block px-5 py-2 gap-[10px] bg-[#4B164C] shadow-[4px_4px_6.3px_rgba(158,145,0,0.48)] rounded-[9px] inter-font cursor-pointer not-italic font-extrabold text-[20px] leading-[27px] text-center text-white my-5 sm:mt-[43px] mb-[70px]"
+                    className="mx-auto block px-5 py-2 gap-[10px] bg-[#4B164C] shadow-[4px_4px_6.3px_rgba(158,145,0,0.48)] rounded-[9px] inter-font cursor-pointer not-italic font-extrabold text-[20px] leading-[27px] text-center text-white my-5 sm:mt-[43px] sm:mb-[70px]"
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.98 }}
                 >
@@ -62,7 +62,10 @@ export default function Hero() {
                 </motion.button>
 
                 {/* Scrolling Image Marquee */}
-                <div className="relative w-full overflow-hidden pb-12 sm:pb-20">
+                <div className="relative w-full overflow-hidden py-12 sm:pb-20">
+                    <Image src="/images/vec5.svg" height={128.99} width={300} alt='vector' className="h-auto max-w-full absolute -right-3 sm:right-0 sm:top-0 top-auto -bottom-[22px] sm:bottom-auto" />
+                    <Image src="/images/start.svg" height={128.99} width={300} alt='vector' className="h-auto max-w-full w-auto absolute left-0 top-0 " />
+
                     <motion.div
                         className="flex gap-6 min-w-[200%]"
                         animate={{ x: ["0%", "-50%"] }}
@@ -90,9 +93,10 @@ export default function Hero() {
                                         />
                                     </div>
                                 </div>
-                            );
+                            )
                         })}
                     </motion.div>
+                    <Image src="/images/vec6.svg" height={128.99} width={300} alt='vector' className="h-auto max-w-full absolute left-0 bottom-20 sm:block hidden" />
                 </div>
             </div>
 

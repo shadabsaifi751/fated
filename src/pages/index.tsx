@@ -1,9 +1,12 @@
 import Head from "next/head";
 import HeroSection from "@/components/HeroSection";
 import Header from "@/components/Header";
-// import ChooseToMatch from "@/components/ChooseToMatch";
+import ChooseToMatch from "@/components/ChooseToMatch";
 import Footer from "@/components/Footer";
-// import FatedWork from "@/components/FatedWork";
+import FatedWork from "@/components/FatedWork";
+import ChooseTopics from "@/components/ChooseTopics";
+import ScrollEngage from "@/components/ScrollEngage";
+import InterestAlign from "@/components/InterestAlign";
 
 export default function Home() {
   return ( <>
@@ -20,8 +23,11 @@ export default function Home() {
       <main className="min-h-screen">
         <Header/>
         <HeroSection />
-        {/* <FatedWork/>
-        <ChooseToMatch/> */}
+        <FatedWork/>
+        <ChooseTopics/>
+        <ScrollEngage/>
+        <InterestAlign/>
+        <ChooseToMatch/>
         <Footer/>
       </main>
     </>

@@ -8,7 +8,7 @@ const Footer = () => {
         //         <h3 className="lobster-font not-italic font-normal text-[54px] sm:text-[200px] sm:leading-[250px] tracking-[0.05em] text-[#4B164C]/28">fated.</h3>
         //     </div>
         // </footer>
-        <footer className="bg-[#4B164C] text-white text-center py-4 text-sm">
+        <footer className="text-[#4B164C] bg-white text-center py-4 text-sm">
           <div className="container mx-auto px-4">
             &copy; {new Date().getFullYear()} Fated. All rights reserved.
           </div>
