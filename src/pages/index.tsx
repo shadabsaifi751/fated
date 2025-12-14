@@ -1,7 +1,7 @@
 import Head from "next/head";
 import HeroSection from "@/components/HeroSection";
 import Header from "@/components/Header";
-import ChooseToMatch from "@/components/ChooseToMatch";
+//import ChooseToMatch from "@/components/ChooseToMatch";
 import Footer from "@/components/Footer";
 import FatedWork from "@/components/FatedWork";
 import ChooseTopics from "@/components/ChooseTopics";
@@ -27,7 +27,6 @@ export default function Home() {
         <ChooseTopics/>
         <ScrollEngage/>
         <InterestAlign/>
-        <ChooseToMatch/>
         <Footer/>
       </main>
     </>

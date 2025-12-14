@@ -13,22 +13,17 @@ const InterestAlign = () => {
                     transition={{ duration: 0.9, ease: "easeOut" }}
                     className="lobster-font font-normal relative text-[48px] sm:text-[96px] sm:leading-[120px] text-center text-[#4B164C] mb-5 sm:mb-[63px]"
                 >
-                    When Interest Aligns
+                    Choose to match
                 </motion.h2>
                 <div className="relative flex flex-wrap items-start justify-center gap-14">
                     <div className="flex-1 h-full my-auto">
-                    <p className="sm:text-end text-center w-[90%] sm:w-[60%] block mx-auto sm:ml-auto sm:mr-0 mb-5 sm:mb-0">Respond to the thoughts
-                            Respond to the thoughts
-                            that resonate with you and signal when someone’s worldview
-                            sparks a connection.</p>
+                    <p className="sm:text-end text-center w-[90%] sm:w-[60%] block mx-auto sm:ml-auto sm:mr-0 mb-5 sm:mb-0">Now that profiles are unlocked, it’s your call.</p>
                     </div>
                     <div className='mockup_shadow'>
                         <Image src="/images/mockup.png" width={281.25} height={568.25} alt='mockup' className="block max-w-full" />
                     </div>
                     <div className="flex-1 sm:block hidden">
-                        <p className='md:w-1/2 pt-16'>Browse a feed
-                            If both users resonate with each other&apos;s ideas,
-                            a potential match is formed and key profile details like photos and other details are unlocked.</p>
+                        <p className='md:w-1/2 pt-16'>Make the match and see where it goes — a friend, a partner, or something in between — or move on if it doesn’t feel right.</p>
                     </div>
                 </div>
             </div>
