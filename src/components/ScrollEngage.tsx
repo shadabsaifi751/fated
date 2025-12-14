@@ -22,7 +22,7 @@ const ScrollEngage = () => {
                         <p className="sm:text-end text-center w-[90%] sm:w-[60%] block mx-auto sm:ml-auto sm:mr-0 mb-5 sm:mb-0">See who’s shown interest in your thoughts.You can start a conversation as soon as someone engages with your profile.</p>
                     </div>
                     <div className='mockup_shadow'>
-                        <Image src="/images/mockup.png" width={281.25} height={568.25} alt='mockup' className="block  max-w-full" />
+                        <Image src="/images/fated-gif-mid.gif" width={281.25} height={568.25} alt='mockup' className="block  max-w-full" />
                     </div>
                     <div className="flex-1 sm:block hidden">
                         <p className='md:w-1/2 pt-16'>

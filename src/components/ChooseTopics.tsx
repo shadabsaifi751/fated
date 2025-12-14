@@ -29,17 +29,13 @@ const ChooseTopics = () => {
                     <div className="flex-1 h-full my-auto">
                         <p className="sm:text-end text-center w-[90%] sm:w-[60%] block mx-auto sm:ml-auto sm:mr-0 mb-5 sm:mb-0">Express yourself by sharing your opinions, stories, insights, or experiences that reflect who you truly are.</p>
                         <div className="sm:block hidden">
-                            <FeminismBadge value={80} label="Feminism" className="absolute -top-[21px] left-[18%]" />
-                            <FeminismBadge value={80} label="Feminism" className="absolute bottom-[44%] left-[12%]" />
                         </div>
                     </div>
                     <div className='mockup_shadow'>
-                        <Image src="/images/mockup.png" width={281.25} height={568.25} alt='mockup' className="block max-w-full" />
+                        <Image src="/images/fated-final-gif1.gif" width={281.25} height={568.25} alt='mockup' className="block max-w-full" />
                     </div>
                     <div className="flex-1 sm:block hidden">
                         <p className='md:w-1/2 pt-16'>Browse a feed filled with ideas from like-minded individuals. Respond to the thoughts that resonate with you and signal when someone's worldview sparks a connection.</p>
-                        <FeminismBadge value={80} label="Feminism" className="absolute top-[30%] right-[22%]" />
-                        <FeminismBadge value={80} label="Feminism" className="absolute bottom-[30%] right-[5%]" />
                     </div>
                 </div>
             </div>
