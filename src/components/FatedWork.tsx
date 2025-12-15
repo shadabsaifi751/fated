@@ -12,7 +12,7 @@ const FatedWork = () => {
                     transition={{ duration: 0.9, ease: "easeOut" }}
                     className="lobster-font font-normal relative text-[48px] sm:text-[96px] sm:leading-[120px] text-center text-[#4B164C]"
                 >
-                    how fated. works!
+                    how fated works!
                 </motion.h2>
             </div>
         </section>

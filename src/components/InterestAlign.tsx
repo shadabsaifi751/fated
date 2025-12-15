@@ -17,13 +17,12 @@ const InterestAlign = () => {
                 </motion.h2>
                 <div className="relative flex flex-wrap items-start justify-center gap-14">
                     <div className="flex-1 h-full my-auto">
-                    <p className="sm:text-end text-center w-[90%] sm:w-[60%] block mx-auto sm:ml-auto sm:mr-0 mb-5 sm:mb-0">Now that profiles are unlocked, it’s your call.</p>
+                    <p className="sm:text-end text-center w-[90%] sm:w-[60%] block mx-auto sm:ml-auto sm:mr-0 mb-5 sm:mb-0">Now that profiles are unlocked, it’s your call. Make the match and see where it goes or move on if it doesn’t feel right</p>
                     </div>
                     <div className='mockup_shadow'>
                         <Image src="/images/fated-gif3.gif" width={281.25} height={568.25} alt='mockup' className="block max-w-full" />
                     </div>
                     <div className="flex-1 sm:block hidden">
-                        <p className='md:w-1/2 pt-16'>Make the match and see where it goes — a friend, a partner, or something in between — or move on if it doesn’t feel right.</p>
                     </div>
                 </div>
             </div>
