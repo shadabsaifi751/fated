@@ -11,7 +11,7 @@ const ScrollEngage = () => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.9, ease: "easeOut" }}
-                    className="lobster-font font-normal relative text-[48px] sm:text-[96px] sm:leading-[120px] text-center text-[#4B164C] mb-5 sm:mb-[63px]"
+                    className="lobster-font font-normal relative text-[48px] sm:text-[82px] sm:leading-[120px] text-center text-[#4B164C] mb-5 sm:mb-[63px]"
                 >
                     When ideas align, a connection begins.
                 </motion.h2>
