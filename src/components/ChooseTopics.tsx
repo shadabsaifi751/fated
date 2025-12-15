@@ -20,14 +20,21 @@ const ChooseTopics = () => {
 
                 <div className="relative flex flex-wrap items-start justify-center gap-14">
                     <div className="flex-1 h-full my-auto">
-                        <p className="sm:text-end text-center w-[90%] sm:w-[60%] block mx-auto sm:ml-auto sm:mr-0 mb-5 sm:mb-0">Share your opinions, stories, and experiences. Browse a feed of like-minded people and respond when something clicks.</p>
-                        <div className="sm:block hidden">
+                        <div className="">
+                            <p className="sm:text-end text-center w-[90%] sm:w-[60%] block mx-auto sm:ml-auto sm:mr-0 mb-5 sm:mb-0">Share your opinions, stories, and experiences.
+                                <span className='sm:hidden block'>
+                                    Browse a feed of like-minded people and respond when something clicks.
+                                </span>
+                            </p>
                         </div>
                     </div>
                     <div className='mockup_shadow'>
                         <Image src="/images/fated-final-gif1.gif" width={281.25} height={568.25} alt='mockup' className="block max-w-full" />
                     </div>
-                    <div className="flex-1 sm:block hidden">
+                    <div className="flex-1 sm:block hidden ">
+                        <span className='sm:w-2/3 w-full block'>
+                            Browse a feed of like-minded people and respond when something clicks.
+                        </span>
                     </div>
                 </div>
             </div>
