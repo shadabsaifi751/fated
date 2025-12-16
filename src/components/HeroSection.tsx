@@ -48,7 +48,7 @@ export default function Hero() {
                     transition={{ duration: 1, ease: "easeOut" }}
                     className="max-w-xl inter-font block mx-auto  not-italic font-medium text-[20px] leading-[27px] text-center text-[#4B164C] mb-6"
                 >
-                    India’s first thought-led dating app. Connect through opinions, values, and meaningful conversations, not just appearances.
+                    India’s first thought-led connection app. Connect through opinions, values, and meaningful conversations, not just appearances.
                 </motion.p>
 
                 {/* Button */}
