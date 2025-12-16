@@ -22,7 +22,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <HeroSection />
-      <FatedWork />
+      {/* <FatedWork /> */}
       <ChooseTopics />
       <ScrollEngage />
       <InterestAlign />
