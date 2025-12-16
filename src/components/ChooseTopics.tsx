@@ -22,7 +22,7 @@ const ChooseTopics = () => {
                     <div className="flex-1 h-full my-auto">
                         <div className="">
                             <p className="sm:text-end text-center w-[90%] sm:w-[60%] block mx-auto sm:ml-auto sm:mr-0 mb-5 sm:mb-0">Share your opinions, stories, and experiences.
-                                <span className='sm:hidden block'>
+                                <span className='sm:hidden inline'>
                                     Browse a feed of like-minded people and respond when something clicks.
                                 </span>
                             </p>

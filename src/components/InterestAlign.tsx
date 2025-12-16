@@ -18,7 +18,7 @@ const InterestAlign = () => {
                 <div className="relative flex flex-wrap items-start justify-center gap-14">
                     <div className="flex-1 h-full my-auto">
                         <p className="sm:text-end text-center w-[90%] sm:w-[60%] block mx-auto sm:ml-auto sm:mr-0 mb-5 sm:mb-0">Now that profiles are unlocked, it’s your call.
-                            <span className='sm:hidden block'>
+                            <span className='sm:hidden inline'>
                                 Make the match and see where it goes or move on if it doesn’t feel right
                             </span>
                         </p>

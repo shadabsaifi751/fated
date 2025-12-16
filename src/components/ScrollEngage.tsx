@@ -21,7 +21,7 @@ const ScrollEngage = () => {
                     <div className="flex-1 h-full my-auto">
                         <p className="sm:text-end text-center w-[90%] sm:w-[60%] block mx-auto sm:ml-auto sm:mr-0 mb-5 sm:mb-0">See who’s engaged with your thoughts.
 
-                        <span className='sm:hidden block'>
+                        <span className='sm:hidden inline'>
                         Respond to perspectives that resonate to form a potential match and unlock profile details - or skip if it doesn’t feel right.
                             </span>
                         </p>
