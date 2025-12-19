@@ -24,7 +24,7 @@ const ChooseTopics = () => {
                     text={`Choose topics that define you.`}
                     Wrapper="h2"
                     repeatDelay={0.05}
-                    className={`lobster-font font-normal relative text-[48px] sm:text-[96px] sm:leading-[120px] text-center text-[#4B164C] mb-5 sm:mb-[63px]`}
+                    className={`lobster-font heading_topic font-normal relative text-[50px] sm:text-[96px] sm:leading-[120px] text-center text-[#4B164C] mb-5 sm:mb-[63px]`}
                 />
 
 
