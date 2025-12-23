@@ -33,6 +33,9 @@ const SplitLineText = ({
 
   // console.log(text.split(""))
 
+  // Split text into words to prevent letter breaking
+  const words = text.split(" ");
+
   return (
     <Wrapper className={className} ref={ref}>
       <motion.span
@@ -43,15 +46,28 @@ const SplitLineText = ({
         initial="hidden"
         animate={controls} // Use animation controls
         aria-hidden
+        style={{ display: "inline-block", wordBreak: "break-word" }}
       >
-        {text.split("").map((char, charIndex) => (
-          <motion.span
-            variants={defaultAnimation}
-            key={`${char}-${charIndex}`}
-            className="inline-block"
+        {words.map((word, wordIndex) => (
+          <span
+            key={`word-${wordIndex}`}
+            style={{ whiteSpace: "nowrap", display: "inline-block" }}
           >
-            {char === " " ? "\u00A0" : char}
-          </motion.span>
+            {word.split("").map((char, charIndex) => (
+              <motion.span
+                variants={defaultAnimation}
+                key={`${char}-${wordIndex}-${charIndex}`}
+                className="inline-block"
+              >
+                {char}
+              </motion.span>
+            ))}
+            {wordIndex < words.length - 1 && (
+              <span className="inline-block" style={{ width: "0.25em" }}>
+                {" "}
+              </span>
+            )}
+          </span>
         ))}
       </motion.span>
     </Wrapper>
