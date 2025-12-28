@@ -10,12 +10,12 @@ import InterestAlign from "@/components/InterestAlign";
 export default function Home() {
   return (<>
     <Head>
-      <title>Fated - Where Minds Meet Heart Follows | Connect by Topics</title>
-      <meta name="description" content="Fated is a unique dating platform focused on deep, meaningful connections. Learn how fated works and choose your perfect match based on shared interests." />
+      <title>Fated – Dating App Based on Thoughts, Ideas & Conversations (India)</title>
+      <meta name="description" content="Fated is a new-age dating app where connections start with thoughts, ideas, and meaningful conversations — not just photos. Join the waitlist in India." />      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" href="/favicon.ico" />
-      <meta property="og:title" content="Fated - Connect by Topics" />
-      <meta property="og:description" content="Where Minds Meet Heart Follows." />
+      <meta property="og:title" content="Fated – Dating App Based on Thoughts & Conversations" />
+      <meta property="og:description" content="A new-age dating app where connections begin with ideas, not photos." />
     </Head>
 
     {/* Main Content Area */}
