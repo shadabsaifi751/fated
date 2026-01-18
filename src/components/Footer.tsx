@@ -10,10 +10,15 @@ const Footer = () => {
         //     </div>
         // </footer>
         <footer className="text-white bg-[#4B164C] text-center py-4 text-sm ">
-            <div className="container mx-auto px-4 flex justify-between gap-2 items-center">
-                <span>
-                    &copy; {new Date().getFullYear()} Fated. All rights reserved.
-                </span>
+            <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between gap-2 sm:gap-4 items-center">
+                <div className="flex items-center gap-4">
+                    <span>
+                        &copy; {new Date().getFullYear()} Fated. All rights reserved.
+                    </span>
+                    <Link href="/privacy-policy" className="hover:underline">
+                        Privacy Policy
+                    </Link>
+                </div>
                 <div>
                     <Link href="https://www.instagram.com/fatedindia" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
