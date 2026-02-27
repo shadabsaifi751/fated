@@ -52,8 +52,8 @@ export default function BetaUserModal({
     };
 
     const validate = () => {
-        if (!form.name.trim() || !form.email.trim() || !form.phone.trim()) {
-            setMessage("Please fill name, email, and phone.");
+        if (!form.name.trim() || !form.email.trim()) {
+            setMessage("Please fill name and email.");
             return false;
         }
 
@@ -168,7 +168,7 @@ export default function BetaUserModal({
                             </label>
 
                             <label className="block">
-                                <span className="inter-font text-sm font-semibold text-[#4B164C]">Phone</span>
+                                <span className="inter-font text-sm font-semibold text-[#4B164C]">Phone <span className="font-normal text-[#4B164C]/50">(Optional)</span></span>
                                 <input
                                     type="tel"
                                     name="phone"
@@ -176,7 +176,6 @@ export default function BetaUserModal({
                                     onChange={handleChange("phone")}
                                     className="mt-1 w-full rounded-lg border border-[#4B164C]/20 px-3 py-2 inter-font text-[#4B164C] focus:border-[#4B164C] focus:outline-none focus:ring-2 focus:ring-[#4B164C]/30"
                                     placeholder="phone"
-                                    required
                                 />
                             </label>
 
