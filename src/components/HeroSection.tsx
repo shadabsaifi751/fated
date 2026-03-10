@@ -2,8 +2,16 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useState } from "react";
-import BetaUserModal from "./BetaUserModal";
+
+const ANDROID_URL = "https://play.google.com/store/apps/details?id=com.fated.dating&pcampaignid=web_share";
+const IOS_URL = "https://app.fated.in/";
+
+function getDownloadUrl(): string {
+    if (typeof navigator === "undefined") return ANDROID_URL;
+    const ua = navigator.userAgent;
+    if (/iPad|iPhone|iPod/.test(ua)) return IOS_URL;
+    return ANDROID_URL;
+}
 
 const images = [
     "/images/img1.png",
@@ -24,7 +32,9 @@ const offsets = [
 ];
 
 export default function Hero() {
-    const [isModalOpen, setIsModalOpen] = useState(false);
+    const handleDownload = () => {
+        window.open(getDownloadUrl(), "_blank", "noopener,noreferrer");
+    };
 
     return (
         <section className="">
@@ -53,12 +63,12 @@ export default function Hero() {
 
                 {/* Button */}
                 <motion.button
-                    onClick={() => setIsModalOpen(true)}
+                    onClick={handleDownload}
                     className="mx-auto block px-5 py-2 gap-[10px] bg-[#4B164C] shadow-[4px_4px_6.3px_rgba(158,145,0,0.48)] rounded-[9px] inter-font cursor-pointer not-italic font-extrabold text-[20px] leading-[27px] text-center text-white my-5 sm:mt-[43px] sm:mb-[70px]"
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.98 }}
                 >
-                    Join the waitlist
+                    Download Now
                 </motion.button>
 
                 {/* Scrolling Image Marquee */}
@@ -100,7 +110,6 @@ export default function Hero() {
                 </div>
             </div>
 
-            <BetaUserModal open={isModalOpen} onClose={() => setIsModalOpen(false)} />
         </section>
     );
 }
